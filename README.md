@@ -104,7 +104,7 @@ On Unix systems, simply calling `npm install` installs all required development 
 Creative Commons logos are subject to a [trademark policy](https://creativecommons.org/policies/) that specifies you download the images directly from 
 [https://creativecommons.org/about/downloads/](https://creativecommons.org/about/downloads/).  Unless otherwise noted, content from [creativecommons.org](https://creativecommons.org) is licensed under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/).
 
-The Creative Commons heart graphics in `assets/caring-is-sharing.svg` and `patternbg-creative-commons.png` were redrawn by Sean O'Brien from the [CC donate' heart](https://creativecommons.org/wp-content/uploads/2014/02/heart-donatepage.png).  They are licensed under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/).
+The Creative Commons heart graphics in `assets/caring-is-sharing.svg` and `patternbg-creative-commons.png` were redrawn by Sean O'Brien from the [CC 'donate' heart](https://creativecommons.org/wp-content/uploads/2014/02/heart-donatepage.png).  They are licensed under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/).
 
 Other licensing information is included alongside specific components, so please browse the directories before appropriating or remixing.  For example, the font 'Source Sans Pro' is released under the SIL Open Font License, whose text is in the `LICENSE` file alongside the font files.
 
