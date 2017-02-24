@@ -1,14 +1,14 @@
-# 'Pike Street' Theme for Reveal.js
-This is a fancy Microsoft theme for Reveal.js. It's mostly used by Microsoft DX's Open Source Engineers, but we wouldn't exactly be great open source engineers if we didn't let you use our theme. We think it looks pretty good. Especially cool: Video backgrounds! Live Code Editors! This repo already contains reveal.js, mostly because we're lazy. **You can see an example presentation [here](http://felixrieseberg.github.io/Reveal-PikeStreet/#/).**
+# 'Creative' Theme for Reveal.js
+This is a fancy theme for Reveal.js, based heavily upon 'Pike Street' by Felix Rieseberg, and including some [Creative Commons](https://creativecommons.org) flair.
 
-The theme uses Segoe UI and Segoe UI Light, falling back to the very similar Open Sans if these fonts aren't available. If you want to make things interesting, the theme also supports an 'accent' script font (which isn't used unless explicitly specified).
+The theme uses EB Garamond and Muli, falling back to well-known serif and sans-serif fonts (respectively) if these aren't available.
 
-![Screenshot](https://raw.githubusercontent.com/felixrieseberg/Reveal-PikeStreet/gh-pages/screens/screen1.png) ![Screenshot](https://raw.githubusercontent.com/felixrieseberg/Reveal-PikeStreet/gh-pages/screens/screen2.png)
+![Screenshot](https://github.com/seandiggity/reveal-creative/raw/master/screenshot-example.png)
 
 **To get started, just open up `index.html` and edit the slides. Every `<section>` is a slide.**
 
 * [Markdown](#markdown)
-* [Stock Pictures & Patterns](#stock-pictures)
+* [Graphics](#graphics)
 * [Code Highlighter & Editor](#codeedit)
 * [Speaker Notes](#speaker-notes)
 * [Disabling the Controls](#disabling-the-controls)
@@ -31,8 +31,8 @@ Reveal.js is capable of creating a presentation directly from Markdown, either f
 #### External Markdown
 The files `index_markdown.html` and `presentation.md` showcase how to do use an external file. There is one limitation: External markdown files are only supported if served from any kind of web server. If you install all development dependencies for this project, `grunt serve` will be one of those servers - alternatively, you should know that Python enables you to always start a small http server in any directory by calling `python -m SimpleHTTPServer` (Python 2.7) or `python -m http.server` (Python 3+). 
 
-### Stock Pictures
-I recommend the following sites for some nice stock pictures. All of them are zero-licensed, meaning that you can do whatever you want with the pictures (including using them in a presentation). Patterns are a bit more difficult to find, but I recommend [The Pattern Library](http://thepatternlibrary.com/).
+### Graphics
+I recommend the following sites for some nice photos. All of them are Creative Commons zero-licensed (CC0), meaning that you can do whatever you want with them (including using them in a presentation). Patterns are a bit more difficult to find, but I recommend [The Pattern Library](http://thepatternlibrary.com/).
 
 * [Little Visuals](http://littlevisuals.co/)
 * [Unsplash](http://unsplash.com/)
@@ -91,10 +91,20 @@ This will only display in the notes window.
 ```
 
 ### Disabling the Controls
-Go into `js/pikestreet.js` and set `controls` to `false` (line 5).
+Go into `js/creative.js` and set `controls` to `false` (line 5).
 
 ## Development
 On Unix systems, simply calling `npm install` installs all required development dependencies to mess with the code (more information can be found at [reveal.js](https://github.com/hakimel/reveal.js/#installation). On Windows, installation is made a bit more difficult - one of the required modules, `node-sass`, requires compilation with Visual Studio 2013. Install Visual Studio 2013 and run `npm install --msvs_version=2013`.
 
-## License
-MIT licensed, Copyright (C) 2015 [Felix Rieseberg](http://www.felixrieseberg.com). For more details, see LICENSE.md.
+## Licensing
+'Pike Street' theme by [Felix Rieseberg](http://www.felixrieseberg.com) was released under the [MIT/Expat license](https://opensource.org/licenses/MIT).
+
+'Creative' and 'Yale' themes by [Sean O'Brien](https://webio.me) are released under the [GNU Affero GPLv3](https://www.gnu.org/licenses/agpl-3.0.html) or any later version. For more details, see `LICENSE`.
+
+Creative Commons logos are subject to a [trademark policy](https://creativecommons.org/policies/) that specifies you download the images directly from 
+[https://creativecommons.org/about/downloads/](https://creativecommons.org/about/downloads/).  Unless otherwise noted, content from [creativecommons.org](https://creativecommons.org) is licensed under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/
+
+The Creative Commons heart graphics in `assets/caring-is-sharing.svg` and `patternbg-creative-commons.png` were redrawn by Sean O'Brien from the [CC donate' heart](https://creativecommons.org/wp-content/uploads/2014/02/heart-donatepage.png).  They are licensed under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/
+
+Other licensing information is included alongside specific components, so please browse the directories before appropriating or remixing.  For example, the font 'Source Sans Pro' is released under the SIL Open Font License, whose text is in the `LICENSE` file alongside the font files.
+

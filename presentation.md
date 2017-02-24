@@ -1,4 +1,4 @@
-# "Pike Street Theme"
+# "Creative Theme"
 This is an example presentation
 
 ----

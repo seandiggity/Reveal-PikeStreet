@@ -1,0 +1,480 @@
+/**
+ * 'Yale' theme for reveal.js
+ * Author: Sean O'Brien sean@webio.me, sean.obrien@yale.edu
+ * 
+ * License: AGPlv3 or later
+ *
+ * See Yale identity guidelines http://identity.yale.edu/web
+ * Useful hex variations of 'Yale Blue': #132e58, #00356b, #0c4c92, #132e58, #0068ce, #286dc0, #63aaff
+ *
+ * Based heavily upon 'Pike Street' by Felix Rieseberg, http://felixrieseberg.com
+ */
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond:400'); /* EB Garamond substituted for Yale Design */
+@import url('https://fonts.googleapis.com/css?family=Muli:400,400i,600,600i,700,700i,900');
+
+@font-face {
+  font-family: 'EB Garamond';
+  font-weight: 400;
+  font-style: normal;
+ }
+
+@font-face {
+  font-family: 'Muli';
+  font-weight: 400;
+  font-style: normal;
+ }
+
+@font-face {
+  font-family: 'Muli';
+  font-weight: 400;
+  font-style: italic;
+ }
+
+@font-face {
+  font-family: 'Muli';
+  font-weight: 600;
+  font-style: normal;
+ }
+
+@font-face {
+  font-family: 'Muli';
+  font-weight: 600;
+  font-style: italic;
+ }
+
+@font-face {
+  font-family: 'Muli';
+  font-weight: 700;
+  font-style: normal;
+ }
+
+@font-face {
+  font-family: 'Muli';
+  font-weight: 700;
+  font-style: italic;
+ }
+
+@font-face {
+  font-family: 'Muli';
+  font-weight: 900;
+  font-style: normal;
+ }
+
+section.has-light-background, section.has-light-background h1, section.has-light-background h2, section.has-light-background h3, section.has-light-background h4, section.has-light-background h5, section.has-light-background h6 {
+  color: #222; }
+
+.reveal img.noborder {
+  margin: 15px 0px;
+  background: none;
+  border: 0;
+  box-shadow: none; }
+
+.reveal.yale a {
+  color:#FFFFC8;
+  text-decoration: none; }
+
+.reveal.yale a:hover, .reveal.yale a:active, {
+  color:#0068ce;
+  text-decoration: underline; }
+
+.reveal h1.alt, .reveal h2.alt {
+  font-family: 'Muli', 'Open Sans', 'Georgia', sans-serif;
+  font-weight: 700;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5); }
+
+.reveal h2.alt {
+  font-family: 'Muli', 'Open Sans', 'Georgia', sans-serif;
+  font-weight: 600;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5); }
+
+.reveal h3.alt, .reveal h4.alt {
+  font-family: 'Yale Design', 'EB Garamond', 'Times New Roman', serif;
+  font-weight: 400;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5); }
+
+.reveal h5.alt, .reveal h6.alt {
+  font-family: 'Yale Design', 'EB Garamond', 'Times New Roman', serif;
+  font-weight: 400;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5); }
+
+.reveal .accent h1 {
+  font-size: 3.5em;
+  font-weight: bolder;
+  margin-top: 0;
+  margin-bottom: 0.2em;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5); }
+.reveal .accent h2 {
+  margin-bottom: 0;
+  letter-spacing: -0.02em;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5); }
+
+.reveal div.accent {
+  margin-bottom: 5em; }
+
+div.icon-group {
+  font-size: 4em; }
+
+.reveal pre code {
+  display: block;
+  padding: 10px;
+  overflow: auto;
+  max-height: 400px;
+  word-wrap: normal;
+  background: #fff;
+  color: #333; }
+
+.reveal pre code::selection {
+  color: #333;
+  background: #DDF7FF; }
+
+body > div > div.backgrounds > div.slide-background.present > video {
+  position: fixed;
+  z-index: -100;
+  right: 0;
+  bottom: 0;
+  width: auto;
+  min-width: 100%;
+  height: auto;
+  min-height: 100%; }
+
+.reveal .progress span {
+  -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  background: #fff !important; }
+
+/*********************************************
+ * GLOBAL STYLES
+ *********************************************/
+body {
+  background: #132e58;
+  background-color: #132e58; }
+
+.reveal {
+  font-family: 'Muli', 'Open Sans', 'Georgia', sans-serif;
+  font-size: 38px;
+  font-weight: normal;
+  color: #fff; }
+
+.reveal .center {
+  float: center; }
+
+.reveal .serif {
+  font-family: 'Yale Design', 'EB Garamond', 'Times New Roman', serif; }
+
+.reveal .sans {
+  font-family: 'Muli', 'Open Sans', 'Georgia', sans-serif; }
+
+.reveal .ti {
+  font-family: 'Yale Design', 'EB Garamond', 'Times New Roman', serif;
+  font-weight: 700;
+  letter-spacing: -0.05em; }
+
+.reveal .yale-logo {
+  font-family: 'Yale Design', 'EB Garamond', 'Times New Roman', serif;
+  font-weight: 400;
+  font-size: 1.4em;
+  margin-top: 8px;
+}
+
+::selection {
+  color: #fff;
+  background: white;
+  text-shadow: none; }
+
+.reveal .slides > section, .reveal .slides > section > section {
+  line-height: 1.3;
+  font-weight: inherit; }
+
+/*********************************************
+ * HEADERS
+ *********************************************/
+.reveal h1 {
+  margin: 0 0 20px 0;
+  color: #fff;
+  font-family: 'Yale Design', 'EB Garamond', 'Times New Roman', serif;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  text-shadow: none;
+  word-wrap: break-word; }
+
+.reveal h2 {
+  margin: 0 0 20px 0;
+  color: #fff;
+  font-family: 'Yale Design', 'EB Garamond', 'Times New Roman', serif;
+  font-weight: 200;
+  line-height: 1.1;
+  letter-spacing: normal;
+  text-transform: none;
+  text-shadow: none;
+  word-wrap: break-word; }
+
+.reveal h3, .reveal h4 {
+  margin: 0 0 20px 0;
+  color: #fff;
+  font-family: 'Muli', 'Open Sans', 'Georgia', sans-serif;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-transform: none;
+  text-shadow: none;
+  word-wrap: break-word; }
+
+.reveal h5, .reveal h6 {
+  margin: 0 0 20px 0;
+  color: #fff;
+  font-family: 'Muli', 'Open Sans', 'Georgia', sans-serif;
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: normal;
+  text-transform: none;
+  text-shadow: none;
+  word-wrap: break-word; }
+
+.reveal h1 {
+  font-size: 2,6em; }
+
+.reveal h2 {
+  font-size: 2.2em; }
+
+.reveal h3 {
+  font-size: 1.4em; }
+
+.reveal h4 {
+  font-size: 1.2em; }
+
+.reveal h1 {
+  text-shadow: none; }
+
+/*********************************************
+ * OTHER
+ *********************************************/
+.reveal p {
+  font-family: 'Muli', 'Open Sans', 'Georgia', sans-serif;
+  font-weight: 400;
+  margin: 20px 0;
+  line-height: 1.3; }
+
+/* Ensure certain elements are never larger than the slide itself */
+.reveal img, .reveal video, .reveal iframe {
+  max-width: 95%;
+  max-height: 95%;
+  overflow-x: hidden; }
+
+.reveal strong, .reveal b {
+  font-weight: bold; }
+
+.reveal em {
+  font-style: italic; }
+
+.reveal ol, .reveal dl, .reveal ul {
+  display: inline-block;
+  text-align: left;
+  margin: 0 0 0 1em; }
+
+.reveal ol {
+  list-style-type: decimal; }
+
+.reveal ul {
+  list-style-type: disc; }
+
+.reveal ul ul {
+  list-style-type: square; }
+
+.reveal ul ul ul {
+  list-style-type: circle; }
+
+.reveal ul ul, .reveal ul ol, .reveal ol ol, .reveal ol ul {
+  display: block;
+  margin-left: 40px; }
+
+.reveal dt {
+  font-weight: bold; }
+
+.reveal dd {
+  margin-left: 40px; }
+
+.reveal q, .reveal blockquote {
+  quotes: none; }
+
+.reveal blockquote {
+  display: block;
+  position: relative;
+  width: 70%;
+  margin: 20px auto;
+  padding: 5px;
+  font-style: italic;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2); }
+
+.reveal blockquote p:first-child, .reveal blockquote p:last-child {
+  display: inline-block; }
+
+.reveal q {
+  font-style: italic; }
+
+.reveal pre {
+  display: block;
+  position: relative;
+  width: 90%;
+  margin: 20px auto;
+  text-align: left;
+  font-size: 0.55em;
+  font-family: monospace;
+  line-height: 1.2em;
+  word-wrap: break-word;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3); }
+
+.reveal code {
+  font-family: monospace; }
+
+.reveal table {
+  margin: auto;
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.reveal table th {
+  font-weight: bold; }
+
+.reveal table th, .reveal table td {
+  text-align: left;
+  padding: 0.2em 0.5em 0.2em 0.5em;
+  border-bottom: 1px solid; }
+
+.reveal table tr:last-child td {
+  border-bottom: none; }
+
+.reveal sup {
+  vertical-align: super; }
+
+.reveal sub {
+  vertical-align: sub; }
+
+.reveal small {
+  display: inline-block;
+  font-size: 0.6em;
+  line-height: 1.2em;
+  vertical-align: top; }
+
+.reveal small * {
+  vertical-align: top; }
+
+.reveal .dark-border {
+  border: 1px solid #222; }
+
+.reveal .light-border {
+  border: 1px solid #fff; }
+
+.reveal .screenshot {
+  margin: 0; }
+
+/*********************************************
+ * LINKS
+ *********************************************/
+.reveal a {
+  color: #FFFFC8;
+  text-decoration: none;
+  -webkit-transition: color 0.15s ease;
+  -moz-transition: color 0.15s ease;
+  transition: color 0.15s ease; }
+
+.reveal a:hover {
+  color: #0068ce;
+  text-shadow: none;
+  border: none; }
+
+.reveal .roll span:after {
+  color: #fff;
+  background: #d9d9d9; }
+
+.reveal .yellow-text {
+  color: #FFFFC8; }
+
+.reveal .black-text {
+  color: #222; }
+
+.reveal a.black-text {
+  color: #222;
+  text-decoration: underline; }
+
+.reveal a.black-text:hover {
+  color: #0068ce;
+  text-shadow: none;
+  border: none;
+  text-decoration: none; }
+
+.reveal a.white-hover:hover {
+  color: #fff;
+  text-shadow: none;
+  border: none; }
+
+.reveal a.black-hover:hover {
+  color: #222;
+  text-shadow: none;
+  border: none; }
+
+/*********************************************
+ * IMAGES
+ *********************************************/
+.reveal section img {
+  margin: 15px 0px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 4px solid #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); }
+
+.reveal a img {
+  -webkit-transition: all 0.15s linear;
+  -moz-transition: all 0.15s linear;
+  transition: all 0.15s linear; }
+
+.reveal a:hover img {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
+
+/*********************************************
+ * NAVIGATION CONTROLS
+ *********************************************/
+.reveal .controls div.navigate-left, .reveal .controls div.navigate-left.enabled {
+  border-right-color: #fff; }
+
+.reveal .controls div.navigate-right, .reveal .controls div.navigate-right.enabled {
+  border-left-color: #fff; }
+
+.reveal .controls div.navigate-up, .reveal .controls div.navigate-up.enabled {
+  border-bottom-color: #fff; }
+
+.reveal .controls div.navigate-down, .reveal .controls div.navigate-down.enabled {
+  border-top-color: #fff; }
+
+.reveal .controls div.navigate-left.enabled:hover {
+  border-right-color: #999999; }
+
+.reveal .controls div.navigate-right.enabled:hover {
+  border-left-color: #999999; }
+
+.reveal .controls div.navigate-up.enabled:hover {
+  border-bottom-color: #999999; }
+
+.reveal .controls div.navigate-down.enabled:hover {
+  border-top-color: #999999; }
+
+/*********************************************
+ * PROGRESS BAR
+ *********************************************/
+.reveal .progress {
+  background: rgba(0, 0, 0, 0.2); }
+
+.reveal .progress span {
+  background: #fff;
+  -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
+
+/*********************************************
+ * SLIDE NUMBER
+ *********************************************/
+.reveal .slide-number {
+  color: #fff; }
