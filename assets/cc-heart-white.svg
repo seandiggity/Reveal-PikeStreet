@@ -16,8 +16,8 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="cc-heart-orange.svg"
-   inkscape:export-filename="/home/diggity/git/reveal-creative/assets/cc-heart-orange.png"
+   sodipodi:docname="cc-heart-white.svg"
+   inkscape:export-filename="/home/diggity/git/reveal-creative/assets/cc-heart-white.png"
    inkscape:export-xdpi="72.705902"
    inkscape:export-ydpi="72.705902">
   <defs
@@ -31,7 +31,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
      inkscape:cx="377.8268"
-     inkscape:cy="266.59575"
+     inkscape:cy="152.31004"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -62,7 +62,7 @@
      id="layer1"
      transform="translate(-294.78157,86.012442)">
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#f87329;stroke-width:47.06282043;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:47.06282043;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 594.78157,-16.555608 c -249.34301,-185.879522 -471.63138,237.825878 0,437.810338 471.63143,-199.98446 249.34301,-623.68986 0,-437.810338 z"
        id="path4201-3"
        inkscape:connector-curvature="0"
@@ -72,12 +72,12 @@
        ns3:knockout="Off"
        d="m 590.70076,101.88614 c -17.6968,-32.269731 -47.8905,-45.112261 -82.9388,-45.112261 -51.0141,0 -91.6187,36.08582 -91.6187,97.174791 0,62.11722 38.1732,97.17505 93.3593,97.17505 35.4032,0 65.5874,-19.43702 82.2467,-48.92861 L 552.87436,182.412 c -8.6798,20.82119 -21.8579,27.06949 -38.5172,27.06949 -28.8094,0 -41.9889,-23.94527 -41.9889,-55.52286 0,-31.57758 11.103,-55.532681 41.9889,-55.532681 8.3248,0 24.9828,4.518071 34.7015,25.329291 l 41.6421,-21.8691 z"
        id="path49-3"
-       style="clip-rule:evenodd;overflow:visible;fill:#f87329;fill-opacity:1;fill-rule:evenodd" />
+       style="clip-rule:evenodd;overflow:visible;fill:#ffffff;fill-opacity:1;fill-rule:evenodd" />
     <path
        inkscape:connector-curvature="0"
        ns3:knockout="Off"
        d="m 771.44656,101.88614 c -17.7064,-32.269731 -47.8905,-45.112261 -82.9374,-45.112261 -51.0155,0 -91.6296,36.08582 -91.6296,97.174791 0,62.11722 38.1827,97.17505 93.3592,97.17505 35.4033,0 65.5874,-19.43702 82.2467,-48.92861 L 733.61056,182.412 c -8.6702,20.82119 -21.8592,27.06949 -38.5172,27.06949 -28.7998,0 -41.9984,-23.94527 -41.9984,-55.52286 0,-31.57758 11.1126,-55.532681 41.9984,-55.532681 8.3235,0 24.9828,4.518071 34.7111,25.329291 l 41.6421,-21.8691 z"
        id="path51-6"
-       style="clip-rule:evenodd;overflow:visible;fill:#f87329;fill-opacity:1;fill-rule:evenodd" />
+       style="clip-rule:evenodd;overflow:visible;fill:#ffffff;fill-opacity:1;fill-rule:evenodd" />
   </g>
 </svg>
